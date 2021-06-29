@@ -1,0 +1,62 @@
+// css reset
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+// hero
+.hero {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+
+  background: url(/img/hero.jpeg) no-repeat center center/cover;
+
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    min-height: 35%;
+    width: 90vw;
+    max-width: 600px;
+    background-color: #ffff;
+    border-radius: 8px;
+
+    h2 {
+      margin-bottom: 1.5rem;
+      font-size: 3rem;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #102a42;
+    }
+
+    .show-modal-btn {
+      padding: 0.7rem 1rem;
+      border-radius: 8px;
+      background-color: #1ca6f0;
+      font-size: 1.2rem;
+      color: #ffff;
+      transition: outline 0.3s ease-out;
+
+      &:hover {
+        color: #1ca6f0;
+        background-color: #fff;
+        outline: #1ca6f0 5px double;
+      }
+    }
+  }
+}
