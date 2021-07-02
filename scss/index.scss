@@ -36,6 +36,7 @@ button {
     max-width: 600px;
     background-color: #ffff;
     border-radius: 8px;
+    box-shadow: 5px 6px 9px rgb(32, 9, 9);
 
     h2 {
       margin-bottom: 1.5rem;
@@ -55,8 +56,54 @@ button {
       &:hover {
         color: #1ca6f0;
         background-color: #fff;
-        outline: #1ca6f0 5px double;
+        // outline: #1ca6f0 5px double;
+        box-shadow: 0 0 3px #000;
       }
     }
   }
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(13, 13, 216, 0.575);
+
+  .modal {
+    position: relative;
+    height: 40%;
+    width: 90vw;
+    max-width: 500px;
+    display: grid;
+    place-items: center;
+    color: #102a42;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+
+    i {
+      position: absolute;
+      right: 10%;
+      top: 10%;
+      cursor: pointer;
+      font-size: 1.5rem;
+      color: red;
+      transition: transform 0.3s;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+.show-modal {
+  visibility: visible;
 }
