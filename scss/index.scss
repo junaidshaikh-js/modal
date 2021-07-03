@@ -11,6 +11,13 @@ html {
   box-sizing: inherit;
 }
 
+// mixins
+@mixin flex-center() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 button {
   cursor: pointer;
   border: none;
@@ -27,9 +34,7 @@ button {
   background: url("../img/hero.jpeg") no-repeat center center/cover;
 
   .banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center();
     flex-flow: column nowrap;
     min-height: 35%;
     width: 90vw;
@@ -70,9 +75,7 @@ button {
   height: 100vh;
   width: 100vw;
   visibility: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center();
   background-color: rgba(13, 13, 216, 0.575);
 
   .modal {

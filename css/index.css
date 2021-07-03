@@ -26,8 +26,8 @@ button {
 
 .hero .banner {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-flow: column nowrap;
   min-height: 35%;
   width: 90vw;
@@ -67,8 +67,8 @@ button {
   width: 100vw;
   visibility: hidden;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background-color: rgba(13, 13, 216, 0.575);
 }
 
