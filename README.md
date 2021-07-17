@@ -59,10 +59,15 @@ This project is a part of 15 vanilla JavaScript projects.
 - [View](https://junaidshaikh-js.github.io/navbar/)
 - [Github](https://github.com/junaidshaikh-js/navbar)
 
-4. Sidebar
+5. Sidebar
 
 - [View](https://junaidshaikh-js.github.io/sidebar/)
 - [Github](https://github.com/junaidshaikh-js/sidebar)
+
+6. FAQ Questions
+
+- [view](https://junaidshaikh-js.github.io/faq-questions/)
+- [Github](https://github.com/junaidshaikh-js/faq-questions)
 
 ## Author
 
