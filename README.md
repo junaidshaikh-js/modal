@@ -10,7 +10,6 @@ This project is a part of 15 vanilla JavaScript projects.
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Resources](#resources)
-- [Other Projects](#other-projects)
 - [Author](#author)
 
 ## Overview
@@ -36,38 +35,6 @@ This project is a part of 15 vanilla JavaScript projects.
 ### Resources
 
 - [Source of Project](https://www.youtube.com/watch?v=3PHXvlpOkf4&list=WL&index=10)
-
-## Other Projects
-
-1. Counter
-
-- [view](https://junaidshaikh-js.github.io/counter/)
-- [Github](https://github.com/junaidshaikh-js/counter)
-
-2. Color Flipper
-
-- [view](https://junaidshaikh-js.github.io/color-flipper/)
-- [Github](https://github.com/junaidshaikh-js/color-flipper)
-
-3. Reviews
-
-- [view](https://junaidshaikh-js.github.io/reviews/)
-- [Github](https://github.com/junaidshaikh-js/reviews)
-
-4. Navbar
-
-- [View](https://junaidshaikh-js.github.io/navbar/)
-- [Github](https://github.com/junaidshaikh-js/navbar)
-
-5. Sidebar
-
-- [View](https://junaidshaikh-js.github.io/sidebar/)
-- [Github](https://github.com/junaidshaikh-js/sidebar)
-
-6. FAQ Questions
-
-- [view](https://junaidshaikh-js.github.io/faq-questions/)
-- [Github](https://github.com/junaidshaikh-js/faq-questions)
 
 ## Author
 
